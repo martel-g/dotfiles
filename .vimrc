@@ -1,6 +1,6 @@
 " no comments coz im lazy
 
-source .vim/vim-pathogen/autoload/pathogen.vim
+source ~/.vim/vim-pathogen/autoload/pathogen.vim
 
 filetype plugin indent on
 execute pathogen#infect()
