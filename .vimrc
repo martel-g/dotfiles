@@ -1,6 +1,7 @@
 " no comments coz im lazy
 
 source ~/.vim/vim-pathogen/autoload/pathogen.vim
+set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
 
 filetype plugin indent on
 execute pathogen#infect()
@@ -32,6 +33,8 @@ set foldmethod=indent
 set foldnestmax=10
 set nofoldenable
 set foldlevel=1
+set guifont=Liberation\ Mono\ for\ Powerline\ 10 
+let g:Powerline_symbols = 'fancy'
 
 map <left> <nop>
 map <right> <nop>

@@ -13,3 +13,9 @@
 [submodule ".vim/vim-pathogen"]
 	path = .vim/vim-pathogen
 	url = https://github.com/tpope/vim-pathogen
+[submodule ".vim/bundle/powerline"]
+	path = .vim/bundle/powerline
+	url = https://github.com/Lokaltog/powerline.git
+[submodule ".powerline"]
+	path = .powerline
+	url = https://github.com/Lokaltog/powerline.git

@@ -115,4 +115,3 @@ export TERM="xterm-256color"
 # autostart tmux
 [[ $- != *i* ]] && return
 [[ -z "$TMUX" ]] && exec tmux
-
